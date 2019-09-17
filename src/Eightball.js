@@ -12,7 +12,7 @@ class Eightball extends Component {
     let randomIdx = Math.floor(Math.random() * this.props.answers.length);
     return this.props.answers[randomIdx];
   }
-
+  // Handles click on button 
   handleClick(evt) {
     let newAns = this.getRandom();
     this.setState({ msg: newAns.msg, color: newAns.color })
