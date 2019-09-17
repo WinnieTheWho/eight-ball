@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.ball {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.ball h2 {
+  padding: 75px 0;
+}
